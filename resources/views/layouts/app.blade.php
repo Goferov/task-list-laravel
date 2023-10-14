@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Laravel task list</title>
+    @yield('style')
 </head>
 <body>
     <h1>@yield('title')</h1>
