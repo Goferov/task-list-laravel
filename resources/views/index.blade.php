@@ -9,6 +9,8 @@
         @empty
             <div>Brak</div>
         @endforelse
-
+        @if($tasks->count())
+            <div>{{ $tasks->links() }}</div>
+        @endif
     </div>
 @endsection
